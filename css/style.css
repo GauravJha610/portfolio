@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+*{
+    font-family: 'Barlow', sans-serif;
+}
+body{
+    background-color: #F0F0F0;
+    overflow-x: hidden;
+}
+#navbarSupportedContent{
+    position: relative;
+    left: 20%;
+}
+
+
