@@ -5,7 +5,18 @@
 body{
     background-color: #F0F0F0;
     overflow-x: hidden;
+    
 }
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+body{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
 #navbarSupportedContent{
     position: relative;
     left: 20%;
